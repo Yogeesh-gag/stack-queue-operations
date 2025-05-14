@@ -12,9 +12,18 @@ public class Main {
         l1.push(30);
         l1.push(56);
 
+        //Removing the elements from the stack and printing the elements
         while(!l1.isEmpty()){
             System.out.println(l1.peek());
             l1.pop();
         }
+
+        //Performing the Queue operation
+        l1.enqueue(56);
+        l1.enqueue(30);
+        l1.enqueue(70);
+
+        //Printing the elements in the Queue
+        l1.printQueue();
     }
 }
