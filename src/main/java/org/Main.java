@@ -25,5 +25,9 @@ public class Main {
 
         //Printing the elements in the Queue
         l1.printQueue();
+
+        //removing the elements from the queue and printing the remaining elements
+        l1.dequeue();
+        l1.printQueue();
     }
 }
