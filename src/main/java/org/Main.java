@@ -12,9 +12,9 @@ public class Main {
         l1.push(30);
         l1.push(56);
 
-//        while(!l1.isEmpty()){
-//            System.out.println(l1.peek());
-//            l1.pop();
-//        }
+        while(!l1.isEmpty()){
+            System.out.println(l1.peek());
+            l1.pop();
+        }
     }
 }

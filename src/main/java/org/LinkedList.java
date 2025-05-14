@@ -13,10 +13,27 @@ public class LinkedList<E> {
         newNode.next=head;
         head=newNode;
     }
+
+    //Pop the element form the list (and also pop will return the value)
+    public E pop(){
+        if(isEmpty()){
+            return null;
+        }
+        E top=head.data;
+        head=head.next;
+        return top;
+    }
+
+    //Peek top of the element in the statck
+    public E peek(){
+        if(isEmpty()){
+            return null;
+        }
+        return head.data;
+    }
+
     //Checking the weather node is empty or not
     public boolean isEmpty(){
         return head==null;
     }
-
-
 }
